@@ -1,8 +1,12 @@
-﻿using OpenAI.GPT3.ObjectModels.RequestModels;
+using OpenAI.GPT3.ObjectModels.RequestModels;
 using OpenAI.GPT3.ObjectModels;
 using OpenAI.GPT3.Managers;
 using OpenAI.GPT3;
 
+//Pasos:
+//1- Conseguir una ApiKey en el sitio de OpenAI y cambiar el valor del string _apiKey (linea 18)
+//2- Realize su pregunta a debatir en la variable aiTalk (linea 10)
+//3- Ejecutar!
 
 var aiTalk = new AITalk(" Ingrese aqui su tema a desarrollo ");
 await aiTalk.Run(5);
