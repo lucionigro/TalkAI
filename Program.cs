@@ -13,7 +13,7 @@ public class AITalk
     private string _messageA;
     private string _messageB;
 
-    private string _apiKey = "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";
+    private string _apiKey = " Inserte su ApiKey ";
     private OpenAIService _openAIService;
     private readonly string _continueText = "Contesta a lo siguiente de forma que parezca un debate: ";
     private readonly string _initialText = "Que tema te gustaria debatir? ";
